@@ -126,10 +126,10 @@ The values of s for which the denominator of the transfer function goes to zero 
 
 Consider the example of a spring attached to a wall, subjected to a force (control) <img src="https://render.githubusercontent.com/render/math?math=\large F = u(t)">  .
 
- <img src="https://render.githubusercontent.com/render/math?math=\large \dot m\ddot x(t) + kx(t) = u(t)"> is the Differential equation representation.
+ <img src="https://render.githubusercontent.com/render/math?math=\large \dot m\ddot x(t) %2B kx(t) = u(t)"> is the Differential equation representation.
 
-If   <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = f(x)">  (impulse function) and setting  <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = f(x)">  gives
- <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = f(x)"> which is the Transfer function representation.
+If   <img src="https://render.githubusercontent.com/render/math?math=\large u(t) = \delta(t)">  (impulse function) and setting  <img src="https://render.githubusercontent.com/render/math?math=\large x(0) = 0, \dot x(0) = 0">  gives
+ <img src="https://render.githubusercontent.com/render/math?math=\large X(s) = \frac{1}{ms^2+k}"> which is the Transfer function representation.
 
 To know more about Differential equations and Transfer functions, check out the following
 
