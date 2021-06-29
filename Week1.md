@@ -30,7 +30,7 @@ The following broad topics will be covered this week-
 ## Control systems
 
 **Control system**- A collection of components that are collectively responsible for bringing the output of the system to the one desired by the input.
-
+![image](https://user-images.githubusercontent.com/85403032/123793796-cd1b5700-d8ea-11eb-900c-9ad89b1b3a64.png)
 The **input** consists of parameters that dictate what the desired output should be. 
 
 The **output** consists of a set of variables that describe the features of the system, collectively referred to as the state of the system. The state of a system is generally represented by 𝑥.
