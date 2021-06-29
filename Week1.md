@@ -59,7 +59,9 @@ Applying control commands based on the measurements of the output with the help 
 *	Alter the dynamic properties of the overall system
 
 To know more about control systems, check out the following-
+
 [Control Systems Intro](https://www.tutorialspoint.com/control_systems/control_systems_introduction.htm)
+
 [Closed-Loop Control](https://www.youtube.com/watch?v=O-OqgFE9SD4&list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&index=6)
 
 
