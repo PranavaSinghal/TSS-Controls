@@ -111,6 +111,23 @@ Example -  <img src="https://render.githubusercontent.com/render/math?math=\larg
 
 Each time step <img src="https://render.githubusercontent.com/render/math?math=\large k">  is separated by <img src="https://render.githubusercontent.com/render/math?math=\large \Delta t >=\epsilon > 0">
 
+## Model representation
+
+**Impulse response** — Output of a system when subjected to a control command which is an impulse (Dirac delta function) in time. Impulse responses in the time domain are linear and can be scaled and superpositioned (using convolution) to obtain responses to more general inputs.
+
+**Step response** - Output of a system when subjected to a control command which is a step function in time.
+
+The model of a control system/parts of a control system can be represented using
+Differential equations or Transfer functions.
+
+* **Differential equations** — They model the relationship between the input and output of the system in the time domain.
+* **Transfer function** — Laplace Transform of the impulse response of a system when all initial conditions are set to zero. It models the relation between the input and the output in the frequency domain.
+The values of s for which the denominator of the transfer function goes to zero are called **poles** and the values of s for which the numerator of the transfer function goes to zero are called **zeros**.
+
+
+![image](https://user-images.githubusercontent.com/85403032/123798657-14581680-d8f0-11eb-9c46-c78845055f8d.png)
+
+
 
 
 
