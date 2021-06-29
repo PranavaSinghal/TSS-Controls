@@ -177,25 +177,28 @@ In many cases, this implies that the eigenvalues of the system can be set to any
 
 **Test for controllability of a system**
 
-Controllability matrix, <img src="https://render.githubusercontent.com/render/math?math=\large \begin{bmatrix} B & AB  & A^2B & A^3B & ... & A^{n-1}B\\ \end{bmatrix}">
+Controllability matrix, <img src="https://render.githubusercontent.com/render/math?math=\large \begin{bmatrix} B & AB  & A^2B & A^3B & ... & A^{n-1}B \end{bmatrix}">
 
  <img src="https://render.githubusercontent.com/render/math?math=\large n"> is the state space dimension
  
 System is controllable  <img src="https://render.githubusercontent.com/render/math?math=\large \iff"> C is full rank.
 
 **Example** - 
-  <img src="https://render.githubusercontent.com/render/math?math=\large A = \begin{bmatrix} 1 & 1 \\ 0 & 2 \\ \end{bmatrix}">
+  <img src="https://render.githubusercontent.com/render/math?math=\large A = \begin{bmatrix} 1 & 1 \\ 0 & 2 \end{bmatrix}">
   <img src="https://render.githubusercontent.com/render/math?math=\large B = \begin{bmatrix} 0 \\ 1 \\ \end{bmatrix}">
   
-  <img src="https://render.githubusercontent.com/render/math?math=\large C = \begin{bmatrix} B & AB end{bmatrix} = \begin{bmatrix} 0 & 1 \\ 1 & 2 \\ \end{bmatrix}">
+  <img src="https://render.githubusercontent.com/render/math?math=\large C = \begin{bmatrix} B & AB end{bmatrix} = \begin{bmatrix} 0 & 1 \\ 1 & 2 \end{bmatrix}">
 
 rank(C) = 2, so the system is controllable.
 
 To know more about stability, controllability, reachability, and other ideas, refer to the following
-[Difference between controllability and reachability]
-[Reachability and Controllability]
-[NPTEL — Controllability and Reachability]
-[Control Theory Boot camp (Lectures 3-11)]
+[Difference between controllability and reachability](https://math.stackexchange.com/questions/3030305/what-is-the-difference-between-controllability-and-reachability)
+
+[Reachability and Controllability](http://www.dii.unimo.it/~zanasi/didattica/Teoria_dei_Sistemi/Luc_TDS_ING_2016_Reachability_and_Controllability.pdf)
+
+[NPTEL — Controllability and Reachability](https://www.youtube.com/watch?v=kkbq3pDf8UE)
+
+[Control Theory Boot camp (Lectures 3-11)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
 
 
 
