@@ -86,7 +86,7 @@ In a more general context, systems in which the output depends linearly on the i
 
 **Nonlinear systems** — Systems where the evolution of state is not related linearly with the state.
 An example is a simple pendulum in a gravitational field.
-
+<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = f(x)">
 Many nonlinear systems can be treated as linear systems approximately around certain states
 (called fixed points, where 
 <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = 0">), through **local linearization**, which will be explored in the upcoming weeks.
