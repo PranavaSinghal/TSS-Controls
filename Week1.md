@@ -124,12 +124,12 @@ Differential equations or Transfer functions.
 * **Transfer function** — Laplace Transform of the impulse response of a system when all initial conditions are set to zero. It models the relation between the input and the output in the frequency domain.
 The values of s for which the denominator of the transfer function goes to zero are called **poles** and the values of s for which the numerator of the transfer function goes to zero are called **zeros**.
 
-Consider the example of a spring attached to a wall, subjected to a force (control)  .
+Consider the example of a spring attached to a wall, subjected to a force (control) <img src="https://render.githubusercontent.com/render/math?math=\large F = u(t)">  .
 
-  is the Differential equation representation.
+ <img src="https://render.githubusercontent.com/render/math?math=\large \dot m\ddot x(t) + kx(t) = u(t)"> is the Differential equation representation.
 
-If     (impulse function) and setting    gives
-  which is the Transfer function representation.
+If   <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = f(x)">  (impulse function) and setting  <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = f(x)">  gives
+ <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = f(x)"> which is the Transfer function representation.
 
 To know more about Differential equations and Transfer functions, check out the following
 
