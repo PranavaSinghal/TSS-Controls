@@ -34,6 +34,7 @@ The following broad topics will be covered this week-
 The **input** consists of parameters that dictate what the desired output should be. 
 
 The **output** consists of a set of variables that describe the features of the system, collectively referred to as the state of the system. The state of a system is generally represented by 𝑥.
+
 **Example** — position and velocity of a car.
 
 A control system generally consists of the following components - 
@@ -68,9 +69,11 @@ To know more about control systems, check out the following-
 ## Types of control-
 
 **Passive control** — It involves minimal energy expenditure to impose desired behaviour
+
 **Example** - streamlined shapes of vehicles
 
 **Active control** — It involves greater energy expenditure for desired behaviour.
+
 **Example** — oscillating the base of an inverted pendulum at a frequency to keep it stable.
 
 ## Linear and Nonlinear systems
