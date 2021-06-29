@@ -107,7 +107,7 @@ Example - <img src="https://render.githubusercontent.com/render/math?math=\large
 
 **Discrete-time systems** — Systems where the evolution of the state is considered only at discrete time steps.
 
-Example —  <img src="https://render.githubusercontent.com/render/math?math=\large x_{k+1} = \tilde Ax_{k}">(Discrete-time, linear system)
+Example -  <img src="https://render.githubusercontent.com/render/math?math=\large x_{k %2B 1} = \tilde Ax_{k}">(Discrete-time, linear system)
 Each time step <img src="https://render.githubusercontent.com/render/math?math=\large k">  is separated by   
 <img src="https://render.githubusercontent.com/render/math?math=\large \Delta t >=\epsilon > 0">
 
