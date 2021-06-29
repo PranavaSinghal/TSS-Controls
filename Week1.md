@@ -177,13 +177,18 @@ In many cases, this implies that the eigenvalues of the system can be set to any
 
 **Test for controllability of a system**
 
-Controllability matrix,  
+Controllability matrix, <img src="https://render.githubusercontent.com/render/math?math=\large \begin{bmatrix} B & AB  & A^2B & A^3B & ... & A^{n-1}B \end{bmatrix}">
+
  <img src="https://render.githubusercontent.com/render/math?math=\large n"> is the state space dimension
+ 
 System is controllable  <img src="https://render.githubusercontent.com/render/math?math=\large \iff"> C is full rank.
 
 **Example** - 
- 
- 
+  <img src="https://render.githubusercontent.com/render/math?math=\large A = \begin{bmatrix} 1 & 1 \\ 0 & 2\end{bmatrix}">
+  <img src="https://render.githubusercontent.com/render/math?math=\large B = \begin{bmatrix} 0 \\ 1\end{bmatrix}">
+  
+  <img src="https://render.githubusercontent.com/render/math?math=\large C = \begin{bmatrix} B & AB end{bmatrix} = \begin{bmatrix} 0 & 1 \\ 1 & 2 end{bmatrix}">
+
 rank(C) = 2, so the system is controllable.
 
 To know more about stability, controllability, reachability, and other ideas, refer to the following
