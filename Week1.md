@@ -49,7 +49,7 @@ A control system generally consists of the following components -
 
 **Controller** — The part of the control system that provides control commands to the plant so that the state gets driven to the desired one. The control command is generally represented by $u$ .
 
-**Sensors** — The part of the control system that takes an observation/measurement of the state completely or partially. The sensor observation is generally represented by $y$ .
+**Sensors** — The part of the control system that takes an observation/measurement of the state completely or partially. The sensor observation is generally represented by $$y$$ .
 
 ## Types of control systems
 
