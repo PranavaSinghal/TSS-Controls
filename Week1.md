@@ -77,7 +77,7 @@ To know more about control systems, check out the following-
 
 **Linear systems** — Systems where the evolution of the state of the system is related linearly with the state. An example is radioactive decay.
 
-<img src="https://render.githubusercontent.com/render/math?math=\dot \large x = Ax">
+<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax">
 
 In a more general context, systems in which the output depends linearly on the input (satisfies properties of scaling and linear combination) are also described as linear systems.
 
