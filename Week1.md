@@ -65,6 +65,27 @@ To know more about control systems, check out the following-
 
 [Closed-Loop Control](https://www.youtube.com/watch?v=O-OqgFE9SD4&list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&index=6)
 
+## Types of control ## -
+
+**Passive control** — It involves minimal energy expenditure to impose desired behaviour
+**Example** - streamlined shapes of vehicles
+
+**Active control** — It involves greater energy expenditure for desired behaviour.
+**Example** — oscillating the base of an inverted pendulum at a frequency to keep it stable.
+
+## Linear and Nonlinear systems ##
+
+**Linear systems** — Systems where the evolution of the state of the system is related linearly with the state. An example is radioactive decay.
+
+𝑥˙=𝐴𝑥
+In a more general context, systems in which the output depends linearly on the input (satisfies properties of scaling and linear combination) are also described as linear systems.
+
+**Nonlinear systems** — Systems where the evolution of state is not related linearly with the state.
+An example is a simple pendulum in a gravitational field.
+
+
+
+
 
 
 
