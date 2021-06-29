@@ -10,3 +10,11 @@ If you don’t want your systems to go out of control, this is the place to know
 Anybody who wishes to know more about control theory will certainly refer to this at some point, so here is the link to get started… 
 
 [Control Theory](https://en.wikipedia.org/wiki/Control_theory)
+
+These are motivational videos to get psyched for what’s about to come 
+
+[Why Learn Control Theory](https://www.youtube.com/watch?v=oBc_BHxw78s&list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&index=1)
+[Control Theory Overview](https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m&index=2)
+
+With all the enthu you have now, let’s begin…
+
