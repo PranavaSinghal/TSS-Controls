@@ -166,14 +166,14 @@ Using a suitable controller in certain systems can help alter the eigenvalues/po
 
 ## Controllability of systems
 
-**Controllability** — It is the property of a system where it is possible to access any state in the state space with a suitable controller (reachability / reachable set  <img src="https://render.githubusercontent.com/render/math?math=\large R_t = \mathbb{R^n}">) from any given initial state in a finite time. 
+**Controllability** — It is the property of a system where it is possible to access any state in the state space with a suitable controller (reachability / reachable set  <img src="https://render.githubusercontent.com/render/math?math=\large R_t = \mathbb{R}^n">) from any given initial state in a finite time. 
 In many cases, this implies that the eigenvalues of the system can be set to any arbitrary value (arbitrary pole placement in the context of transfer functions)
 
 **Stabilizability** — It is the property of a system in which the unstable eigenvector directions are controllable (lie in the controllable subspace).
 
 **Dynamics of a linear system in the presence of a controller**
 
-<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax + Bu"> where <img src="https://render.githubusercontent.com/render/math?math=\large Bu"> is the controller term
+<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax %2B Bu"> where <img src="https://render.githubusercontent.com/render/math?math=\large Bu"> is the controller term
 
 
 
