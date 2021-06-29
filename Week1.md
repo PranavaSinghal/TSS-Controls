@@ -99,6 +99,18 @@ Check out the following to know more about Linear systems in different contexts-
 
 [LTI](https://www.youtube.com/watch?v=3eDDTFcSC_Y&list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&index=4)
 
+## Continuous and discrete-time systems
+
+**Continuous-time systems** — Systems where the evolution of the state is considered for any time. 
+
+Example - <img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax"> 
+
+**Discrete-time systems** — Systems where the evolution of the state is considered only at discrete time steps.
+
+Example —  <img src="https://render.githubusercontent.com/render/math?math=\large x_{k+1} = \tilde Ax_{k}">(Discrete-time, linear system)
+Each time step <img src="https://render.githubusercontent.com/render/math?math=\large k">  is separated by   
+<img src="https://render.githubusercontent.com/render/math?math=\large \Delta t >=\epsilon > 0">
+
 
 
 
