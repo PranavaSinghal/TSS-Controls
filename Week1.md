@@ -47,7 +47,7 @@ A control system generally consists of the following components -
 
 **Plant** — The part of the control system that is being controlled. It consists of the actuator, which executes the control command, and the process which responds to the actuation and undergoes a time evolution. In many cases, the plant could be a dynamic system like a car or a pendulum.
 
-**Controller** — The part of the control system that provides control commands to the plant so that the state gets driven to the desired one. The control command is generally represented by $u$ .
+**Controller** — The part of the control system that provides control commands to the plant so that the state gets driven to the desired one. The control command is generally represented by 𝑥   .
 
 **Sensors** — The part of the control system that takes an observation/measurement of the state completely or partially. The sensor observation is generally represented by $$y$$ .
 
