@@ -184,6 +184,7 @@ Controllability matrix, <img src="https://render.githubusercontent.com/render/ma
 System is controllable  <img src="https://render.githubusercontent.com/render/math?math=\large \iff"> C is full rank.
 
 **Example** - 
+
   <img src="https://render.githubusercontent.com/render/math?math=\large A = \begin{bmatrix} 1 %26 1 \\ 0 %26 2 \end{bmatrix}">
   <img src="https://render.githubusercontent.com/render/math?math=\large B = \begin{bmatrix} 0 \\ 1 \\ \end{bmatrix}">
   
