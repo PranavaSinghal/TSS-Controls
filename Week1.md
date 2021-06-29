@@ -125,9 +125,6 @@ Differential equations or Transfer functions.
 The values of s for which the denominator of the transfer function goes to zero are called **poles** and the values of s for which the numerator of the transfer function goes to zero are called **zeros**.
 
 
-![image](https://user-images.githubusercontent.com/85403032/123798657-14581680-d8f0-11eb-9c46-c78845055f8d.png)
-
-
 
 
 
