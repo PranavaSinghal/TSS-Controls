@@ -157,9 +157,10 @@ If <img src="https://render.githubusercontent.com/render/math?math=\large A">  c
 **Condition for stability**
 
 In continuous-time,
-<img src="https://render.githubusercontent.com/render/math?math=\large \forall i, Re(\lambda_i) <=0 \Rightarrow">Stable
 
-<img src="https://render.githubusercontent.com/render/math?math=\large \exists s.t Re(\lambda_i) > 0 \Rightarrow">Unstable
+<img src="https://render.githubusercontent.com/render/math?math=\large \forall i, \quad Re(\lambda_i) <=0 \Rightarrow">Stable
+
+<img src="https://render.githubusercontent.com/render/math?math=\large \exists \quad s.t  Re(\lambda_i) > 0 \Rightarrow">Unstable
 
 Using a suitable controller in certain systems can help alter the eigenvalues/poles of the system, thus altering the stability of various states. This is the main idea behind **pole placement**, which will be seen later.
 
