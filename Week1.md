@@ -43,6 +43,19 @@ A control system generally consists of the following components -
 
 **Sensors** — The part of the control system that takes an observation/measurement of the state completely or partially. The sensor observation is generally represented by 𝑦.
 
+## Types of control systems
+
+**Open Loop control systems**
+Applying control commands without taking any measurements of the output
+**Closed Loop control systems/ Feedback control systems**
+Applying control commands based on the measurements of the output with the help of a controller
+**Advantages of Closed Loop control** - 
+* Greater resistance to noise/bias/disturbances to the system
+*	Efficient energy consumption
+*	Alter the dynamic properties of the overall system
+
+To know more about control systems, check out the following-
+
 
 
 
