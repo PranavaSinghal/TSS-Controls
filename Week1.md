@@ -143,6 +143,25 @@ To know more about Differential equations and Transfer functions, check out the 
 
 [Zeros and Poles of a Transfer function](https://www.youtube.com/watch?v=AZ7_MvANy_Q)
 
+**Evolution of a continuous-time linear system**
+
+<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax">
+<img src="https://render.githubusercontent.com/render/math?math=\large \Rightarrow x(t) = e^{At} x(0)">
+<img src="https://render.githubusercontent.com/render/math?math=\large e^{At} = \sum_{n=1}^\infty \frac{A^nt^n}{n!} ">
+
+
+If <img src="https://render.githubusercontent.com/render/math?math=\large A">  can be represented as <img src="https://render.githubusercontent.com/render/math?math=\large V\Lambda V^{-1}">  where V is the eigenvector matrix and <img src="https://render.githubusercontent.com/render/math?math=\large \Lambda"> is the matrix of eigenvalues (these are also the poles of the system transfer function, hence their importance!), then
+<img src="https://render.githubusercontent.com/render/math?math=\large e^{At} = V e^{\Lambda t} V^{-1}">
+<img src="https://render.githubusercontent.com/render/math?math=\large \Rightarrow x_i(t) = e^{\lambda t} x_i(0)"> where <img src="https://render.githubusercontent.com/render/math?math=\large x_i">  is an individual component of the state vector and <img src="https://render.githubusercontent.com/render/math?math=\large \lambda_i"> is the corresponding eigenvalue. Thus, the different components get decoupled from each other.
+
+**Condition for stability**
+
+In continuous-time,
+ Stable
+  Unstable
+
+Using a suitable controller in certain systems can help alter the eigenvalues/poles of the system, thus altering the stability of various states. This is the main idea behind **pole placement**, which will be seen later.
+
 
 
 
