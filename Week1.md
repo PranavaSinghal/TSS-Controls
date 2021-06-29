@@ -47,14 +47,21 @@ A control system generally consists of the following components -
 
 **Open Loop control systems**
 Applying control commands without taking any measurements of the output
+![image](https://user-images.githubusercontent.com/85403032/123794143-33a07500-d8eb-11eb-87ca-1ce0ae3f3802.png)
+
 **Closed Loop control systems/ Feedback control systems**
 Applying control commands based on the measurements of the output with the help of a controller
+![image](https://user-images.githubusercontent.com/85403032/123794161-38652900-d8eb-11eb-8051-6053a51a29f6.png)
+
 **Advantages of Closed Loop control** - 
 * Greater resistance to noise/bias/disturbances to the system
 *	Efficient energy consumption
 *	Alter the dynamic properties of the overall system
 
 To know more about control systems, check out the following-
+[Control Systems Intro](https://www.tutorialspoint.com/control_systems/control_systems_introduction.htm)
+[Closed-Loop Control](https://www.youtube.com/watch?v=O-OqgFE9SD4&list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&index=6)
+
 
 
 
