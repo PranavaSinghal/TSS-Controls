@@ -325,6 +325,15 @@ To know more about step responses in general and the various features used for c
 
 [The Step Response](https://www.youtube.com/watch?v=USH75nuHV6w)
 
+## References and Additional Materials
+
+YouTube links-
+
+[Control Theory Boot camp — Steve Brunton](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
+
+[Underactuated Robotics 2020 - Russ Tedrake](https://www.youtube.com/playlist?list=PLkx8KyIQkMfX1WpWYqtep7TOmboZeDtev)
+
+[Classical Control Theory — Brian Douglas](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
 
 
 
