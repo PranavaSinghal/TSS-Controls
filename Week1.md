@@ -237,9 +237,9 @@ For a great introduction to PID Control, refer to the following
 <img src="https://render.githubusercontent.com/render/math?math=\large  u(t) = K_p e(t) %2B K_i \int e(t) dt %2B K_d e'(t) = K_p(e(t) %2B \frac{1}{\tau_i}\int e(t) dt %2B \tau_d e'(t))">
 
  
-* <img src="https://render.githubusercontent.com/render/math?math=\large K_p">is the proportional weight
-* <img src="https://render.githubusercontent.com/render/math?math=\large K_i">is the integral weight
-* <img src="https://render.githubusercontent.com/render/math?math=\large K_d">is the derivative weight
+* <img src="https://render.githubusercontent.com/render/math?math=\large K_p"> is the proportional weight
+* <img src="https://render.githubusercontent.com/render/math?math=\large K_i"> is the integral weight
+* <img src="https://render.githubusercontent.com/render/math?math=\large K_d"> is the derivative weight
 * <img src="https://render.githubusercontent.com/render/math?math=\large \tau_i"> is the integral time constant
 * <img src="https://render.githubusercontent.com/render/math?math=\large \tau_d"> is the derivative time constant
 
@@ -248,8 +248,7 @@ For a great introduction to PID Control, refer to the following
 **Transfer function representation of the PID control law**
 
 
-<img src="https://render.githubusercontent.com/render/math?math=\large  \frac{U(s)}{E(s)} = ( K_p %2B \frac{K_i}{s} %2B K_d s ) ">
-where <img src="https://render.githubusercontent.com/render/math?math=\large U(s)">is the Laplace transform of <img src="https://render.githubusercontent.com/render/math?math=\large u(t)"> and <img src="https://render.githubusercontent.com/render/math?math=\large E(s)"> is the Laplace transform of <img src="https://render.githubusercontent.com/render/math?math=\large e(t)">
+<img src="https://render.githubusercontent.com/render/math?math=\large  \frac{U(s)}{E(s)} = ( K_p %2B \frac{K_i}{s} %2B K_d s ) "> where <img src="https://render.githubusercontent.com/render/math?math=\large U(s)">is the Laplace transform of <img src="https://render.githubusercontent.com/render/math?math=\large u(t)"> and <img src="https://render.githubusercontent.com/render/math?math=\large E(s)"> is the Laplace transform of <img src="https://render.githubusercontent.com/render/math?math=\large e(t)">
 
 **Intuition behind the role of different components**
 
