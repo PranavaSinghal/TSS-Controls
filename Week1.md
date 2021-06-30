@@ -219,6 +219,124 @@ When <img src="https://render.githubusercontent.com/render/math?math=\large u=-K
  
 The use of this shall be seen in the upcoming weeks.
 
+## PID Controller
+
+![image](https://user-images.githubusercontent.com/85403032/123915186-e70b7700-d988-11eb-8120-ba8d8afe7745.png)
+
+For a great introduction to PID Control, refer to the following
+
+[Classical Control Theory — PID Controller](https://www.youtube.com/watch?v=UR0hOmjaHp0&list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&index=28)
+
+[PID Controller - Wikipedia](https://en.wikipedia.org/wiki/PID_controller)
+
+[Controlling Self Driving Cars](https://www.youtube.com/watch?v=4Y7zG48uHRo)
+
+
+**Control law for PID controller**  
+
+<img src="https://render.githubusercontent.com/render/math?math=\large  u(t) = K_p e(t) %2B K_i \int e(t) dt %2B K_d e'(t) = K_p(e(t) %2B \frac{1}{\tau_i}\int e(t) dt %2B \tau_d e'(t))">
+
+ 
+* <img src="https://render.githubusercontent.com/render/math?math=\large K_p"> is the proportional weight
+* <img src="https://render.githubusercontent.com/render/math?math=\large K_i"> is the integral weight
+* <img src="https://render.githubusercontent.com/render/math?math=\large K_d"> is the derivative weight
+* <img src="https://render.githubusercontent.com/render/math?math=\large \tau_i"> is the integral time constant
+* <img src="https://render.githubusercontent.com/render/math?math=\large \tau_d"> is the derivative time constant
+
+
+
+**Transfer function representation of the PID control law**
+
+
+<img src="https://render.githubusercontent.com/render/math?math=\large  \frac{U(s)}{E(s)} = ( K_p %2B \frac{K_i}{s} %2B K_d s ) ">,  where  <img src="https://render.githubusercontent.com/render/math?math=\large U(s)"> is the Laplace transform of 
+<img src="https://render.githubusercontent.com/render/math?math=\large u(t)"> and <img src="https://render.githubusercontent.com/render/math?math=\large E(s)"> is the Laplace transform of <img src="https://render.githubusercontent.com/render/math?math=\large e(t)">
+
+**Intuition behind the role of different components**
+
+* **P (Proportional)** - In many simple situations, proportional control ensures that the desired state (set point) is asymptotically reached from the initial state. It deals with the knowledge of the present error.
+
+* **I (Integral)** - Integral control takes into account the past errors and their duration of persistence, thus it plays an important role in reducing steady-state error in many situations. It deals with the knowledge of past errors.
+
+* **D (Derivative)** - Derivative control takes into account the rate at which the error is decreasing, thus it plays an important role in preventing possible overshoot due to the integrator. It deals with the knowledge of future error change.
+
+**Drawbacks of P**
+
+* In the discrete-time version, the state can oscillate around a certain mean state which isn’t the set point.
+* Not suitable in cases where a certain state needs to be maintained and external forces like gravity are present irrespective of the error.
+
+**Drawbacks of I**
+* The possibility of overshooting the desired state is high.
+* In the case of actuator saturation, integral wind-up can occur.
+
+**Drawbacks of D**
+* High-frequency noise can make the derivative contribution higher than required.
+
+To know more about the features of PID Control and get more intuition, check out 
+
+[Understanding PID Control — MATLAB Tech Talk](https://www.youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
+
+If you wish to know more about the application of PID Controllers in simple scenarios such as car speed regulation, refer to the following links - 
+
+[PID Math Demystified](https://www.youtube.com/watch?v=JEpWlTl95Tw)
+
+[Simple Examples of PID Control](https://www.youtube.com/watch?v=XfAt6hNV8XM)
+
+Watch this video to see a physical demonstration of a PID Controller
+
+[Hardware Demo of a PID Controller](https://www.youtube.com/watch?v=fusr9eTceEo)
+
+## Discrete-time PID Control
+
+<img src="https://render.githubusercontent.com/render/math?math=\large  u(t) = K_p( e(k) %2B \frac{1}{\tau_i}\sum_{i=0}^k e(k)\Delta t %2B \tau_d \frac{(e(k) - e(k-1))}{\Delta t} "> 
+
+
+The discrete form of the PID controller is used when sampling frequency ( <img src="https://render.githubusercontent.com/render/math?math=\large \frac{1}{\Delta t} ">) is much lower compared to the speed of dynamics of the system.
+This is also one of the forms of PID Control used in most practical situations, especially in programs (spoiler alert!).
+
+## Step response of a PID Controlled System                                                                               
+
+Depending on the values of <img src="https://render.githubusercontent.com/render/math?math=\large   K_p,K_i,K_d ">  , different output responses can be obtained in a PID Controlled system. 
+
+Consider an example in which the angular velocity of an object is controlled such that it reaches a certain desired angle (3 radians in this case)
+The step input is the desired angle, the control command is the angular velocity and the output is the angle. 
+The below figures show some of the different possible step responses for different weight sets.
+The different responses show the importance of selecting appropriate weights for the different components of the controller. Looking at the step response is one of the ways to begin tuning the PID Controller so that it behaves in the desired manner.
+
+When <img src="https://render.githubusercontent.com/render/math?math=\large   K_p = 0.5, K_i = 2, K_d = 2 "> 
+
+  
+![image](https://user-images.githubusercontent.com/85403032/123916812-bd534f80-d98a-11eb-895a-87e372575716.png)
+
+
+When <img src="https://render.githubusercontent.com/render/math?math=\large  K_p = 5, K_i = 1, K_d = 2"> 
+
+
+
+![image](https://user-images.githubusercontent.com/85403032/123916840-c3493080-d98a-11eb-8ed5-561f4077db21.png)
+
+ 
+However, the question remains. How do we choose appropriate weights so that the controller behaves as desired? This brings us to the idea of **PID Tuning**, which will be discussed next week.
+
+In the meantime, here is another great example where PID Control is utilized in a spring-mass-damper system and the step responses in various cases are analyzed. You shall also get a sneak peek into PID Tuning as well.
+
+[Introduction: PID Controller Design](https://ctms.engin.umich.edu/CTMS/index.php?example=Introduction&section=ControlPID)
+
+To know more about step responses in general and the various features used for control design, check out
+
+[The Step Response](https://www.youtube.com/watch?v=USH75nuHV6w)
+
+## References and Additional Materials
+
+YouTube links-
+
+[Control Theory Boot camp — Steve Brunton](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
+
+[Underactuated Robotics 2020 - Russ Tedrake](https://www.youtube.com/playlist?list=PLkx8KyIQkMfX1WpWYqtep7TOmboZeDtev)
+
+[Classical Control Theory — Brian Douglas](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
+
+
+
 
 
 
