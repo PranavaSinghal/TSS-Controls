@@ -327,7 +327,7 @@ To know more about step responses in general and the various features used for c
 
 ## References and Additional Materials
 
-YouTube links-
+**YouTube links**-
 
 [Control Theory Boot camp — Steve Brunton](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
 
