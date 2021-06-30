@@ -287,10 +287,10 @@ Watch this video to see a physical demonstration of a PID Controller
 
 ## Discrete-time PID Control
 
-<img src="https://render.githubusercontent.com/render/math?math=\large  u(t) = K_p( e(k) + \frac{1}{\tau_i}\sum_{i=0}^k e(k)\Delta t + \tau_d \frac{(e(k) - e(k-1))}{\Delta t} "> 
+<img src="https://render.githubusercontent.com/render/math?math=\large  u(t) = K_p( e(k) %2B \frac{1}{\tau_i}\sum_{i=0}^k e(k)\Delta t %2B \tau_d \frac{(e(k) - e(k-1))}{\Delta t} "> 
 
 
-The discrete form of the PID controller is used when sampling frequency ( <img src="https://render.githubusercontent.com/render/math?math=\large \frac{1}{\Delta t} ") is much lower compared to the speed of dynamics of the system.
+The discrete form of the PID controller is used when sampling frequency ( <img src="https://render.githubusercontent.com/render/math?math=\large \frac{1}{\Delta t} ">) is much lower compared to the speed of dynamics of the system.
 This is also one of the forms of PID Control used in most practical situations, especially in programs (spoiler alert!).
 
 ## Step response of a PID Controlled System                                                                               
@@ -302,15 +302,19 @@ The step input is the desired angle, the control command is the angular velocity
 The below figures show some of the different possible step responses for different weight sets.
 The different responses show the importance of selecting appropriate weights for the different components of the controller. Looking at the step response is one of the ways to begin tuning the PID Controller so that it behaves in the desired manner.
 
-When $ K_p = 0.5, K_i = 2, K_d = 2 $ 
-![image-2.png](attachment:image-2.png)
+When <img src="https://render.githubusercontent.com/render/math?math=\large   K_p = 0.5, K_i = 2, K_d = 2 "> 
+
+  
+![image](https://user-images.githubusercontent.com/85403032/123916812-bd534f80-d98a-11eb-895a-87e372575716.png)
+
+
+When <img src="https://render.githubusercontent.com/render/math?math=\large  K_p = 5, K_i = 1, K_d = 2}{\Delta t} "> 
 
 
 
-When $K_p = 5, K_i = 1, K_d = 2$
-![image-3.png](attachment:image-3.png)
+![image](https://user-images.githubusercontent.com/85403032/123916840-c3493080-d98a-11eb-8ed5-561f4077db21.png)
+
  
-
 However, the question remains. How do we choose appropriate weights so that the controller behaves as desired? This brings us to the idea of **PID Tuning**, which will be discussed next week.
 
 In the meantime, here is another great example where PID Control is utilized in a spring-mass-damper system and the step responses in various cases are analyzed. You shall also get a sneak peek into PID Tuning as well.
