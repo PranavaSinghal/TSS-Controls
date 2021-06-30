@@ -295,7 +295,7 @@ This is also one of the forms of PID Control used in most practical situations, 
 
 ## Step response of a PID Controlled System                                                                               
 
-Depending on the values of $K_p,K_i,K_d$ , different output responses can be obtained in a PID Controlled system. 
+Depending on the values of <img src="https://render.githubusercontent.com/render/math?math=\large   K_p,K_i,K_d ">  , different output responses can be obtained in a PID Controlled system. 
 
 Consider an example in which the angular velocity of an object is controlled such that it reaches a certain desired angle (3 radians in this case)
 The step input is the desired angle, the control command is the angular velocity and the output is the angle. 
@@ -308,7 +308,7 @@ When <img src="https://render.githubusercontent.com/render/math?math=\large   K_
 ![image](https://user-images.githubusercontent.com/85403032/123916812-bd534f80-d98a-11eb-895a-87e372575716.png)
 
 
-When <img src="https://render.githubusercontent.com/render/math?math=\large  K_p = 5, K_i = 1, K_d = 2}{\Delta t} "> 
+When <img src="https://render.githubusercontent.com/render/math?math=\large  K_p = 5, K_i = 1, K_d = 2"> 
 
 
 
