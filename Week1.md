@@ -219,6 +219,72 @@ When <img src="https://render.githubusercontent.com/render/math?math=\large u=-K
  
 The use of this shall be seen in the upcoming weeks.
 
+## PID Controller
+
+![image-2.png](attachment:image-2.png)
+
+
+For a great introduction to PID Control, refer to the following
+
+[Classical Control Theory — PID Controller](https://www.youtube.com/watch?v=UR0hOmjaHp0&list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk&index=28)
+
+[PID Controller - Wikipedia](https://en.wikipedia.org/wiki/PID_controller)
+
+[Controlling Self Driving Cars](https://www.youtube.com/watch?v=4Y7zG48uHRo)
+
+
+**Control law for PID controller**  
+
+$$ u(t) = K_p e(t) + K_i \int e(t) dt + K_d e'(t) = K_p(e(t) + \frac{1}{\tau_i}\int e(t) dt + \tau_d e'(t))$$
+ 
+* $K_p$ is the proportional weight
+* $K_i$ is the integral weight
+* $K_d$ is the derivative weight
+* $\tau_i$ is the integral time constant
+* $\tau_d$ is the derivative time constant
+
+
+
+**Transfer function representation of the PID control law**
+
+$$ \frac{U(s)}{E(s)} = ( K_p + \frac{K_i}{s} + K_d s ) $$
+
+where $U(s)$ is the Laplace transform of $u(t)$ and $E(s)$ is the Laplace transform of $e(t)$.
+
+**Intuition behind the role of different components**
+
+* **P (Proportional)** - In many simple situations, proportional control ensures that the desired state (set point) is asymptotically reached from the initial state. It deals with the knowledge of the present error.
+
+* **I (Integral)** - Integral control takes into account the past errors and their duration of persistence, thus it plays an important role in reducing steady-state error in many situations. It deals with the knowledge of past errors.
+
+* **D (Derivative)** - Derivative control takes into account the rate at which the error is decreasing, thus it plays an important role in preventing possible overshoot due to the integrator. It deals with the knowledge of future error change.
+
+**Drawbacks of P**
+
+* In the discrete-time version, the state can oscillate around a certain mean state which isn’t the set point.
+* Not suitable in cases where a certain state needs to be maintained and external forces like gravity are present irrespective of the error.
+
+**Drawbacks of I**
+* The possibility of overshooting the desired state is high.
+* In the case of actuator saturation, integral wind-up can occur.
+
+**Drawbacks of D**
+* High-frequency noise can make the derivative contribution higher than required.
+
+To know more about the features of PID Control and get more intuition, check out 
+
+[Understanding PID Control — MATLAB Tech Talk](https://www.youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
+
+If you wish to know more about the application of PID Controllers in simple scenarios such as car speed regulation, refer to the following links - 
+
+[PID Math Demystified](https://www.youtube.com/watch?v=JEpWlTl95Tw)
+
+[Simple Examples of PID Control](https://www.youtube.com/watch?v=XfAt6hNV8XM)
+
+Watch this video to see a physical demonstration of a PID Controller
+
+[Hardware Demo of a PID Controller](https://www.youtube.com/watch?v=fusr9eTceEo)
+
 
 
 
