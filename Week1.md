@@ -214,7 +214,7 @@ The control law for **Linear Quadratic Regulator (LQR)**
 
 When <img src="https://render.githubusercontent.com/render/math?math=\large u=-Kx"> is applied to a continuous-time linear system with a controller, the entire system becomes a closed-loop linear system where the dynamics are heavily influenced by the chosen <img src="https://render.githubusercontent.com/render/math?math=\large K">.
 
-<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax + Bu">
+<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax %2B Bu">
 <img src="https://render.githubusercontent.com/render/math?math=\large \Rightarrow \dot x = (A-BK)x = \bar A x">
  
 The use of this shall be seen in the upcoming weeks.
