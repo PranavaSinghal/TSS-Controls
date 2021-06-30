@@ -202,6 +202,22 @@ To know more about stability, controllability, reachability, and other ideas, re
 
 [Control Theory Boot camp (Lectures 3-11)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
 
+## Control law
+
+**Control law** refers to the relation between the control command and other parameters, such as the state and input.
+
+**Example** -
+
+The control law for **Linear Quadratic Regulator (LQR)**
+
+<img src="https://render.githubusercontent.com/render/math?math=\large u(t)=-K(x(t)-x_0)">
+
+When <img src="https://render.githubusercontent.com/render/math?math=\large u=-Kx"> is applied to a continuous-time linear system with a controller, the entire system becomes a closed-loop linear system where the dynamics are heavily influenced by the chosen <img src="https://render.githubusercontent.com/render/math?math=\large K">.
+
+<img src="https://render.githubusercontent.com/render/math?math=\large \dot x = Ax + Bu">
+<img src="https://render.githubusercontent.com/render/math?math=\large \Rightarrow \dot x = (A-BK)x = \bar A x">
+ 
+The use of this shall be seen in the upcoming weeks.
 
 
 
