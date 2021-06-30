@@ -248,7 +248,7 @@ For a great introduction to PID Control, refer to the following
 **Transfer function representation of the PID control law**
 
 
-<img src="https://render.githubusercontent.com/render/math?math=\large  \frac{U(s)}{E(s)} = ( K_p %2B \frac{K_i}{s} %2B K_d s ) "> where  <img src="https://render.githubusercontent.com/render/math?math=\large U(s)"> is the Laplace transform of 
+<img src="https://render.githubusercontent.com/render/math?math=\large  \frac{U(s)}{E(s)} = ( K_p %2B \frac{K_i}{s} %2B K_d s ) ">,  where  <img src="https://render.githubusercontent.com/render/math?math=\large U(s)"> is the Laplace transform of 
 <img src="https://render.githubusercontent.com/render/math?math=\large u(t)"> and <img src="https://render.githubusercontent.com/render/math?math=\large E(s)"> is the Laplace transform of <img src="https://render.githubusercontent.com/render/math?math=\large e(t)">
 
 **Intuition behind the role of different components**
