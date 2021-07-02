@@ -283,6 +283,8 @@ If you wish to know more about the application of PID Controllers in simple scen
 
 [Simple Examples of PID Control](https://www.youtube.com/watch?v=XfAt6hNV8XM)
 
+[Control Theory Boot camp: Cruise control(Lectures 28-30)](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
+
 Watch this video to see a physical demonstration of a PID Controller
 
 [Hardware Demo of a PID Controller](https://www.youtube.com/watch?v=fusr9eTceEo)
